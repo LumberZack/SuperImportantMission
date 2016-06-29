@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="I've designed this to test your aptitude in a variety of skill testing activities."
         android:id="@+id/fun_text"/>
 
     <Button

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@android:color/holo_purple"
+    android:background="#8E24AA"
     tools:context="com.example.android.superimportantmission.FirstPage">
 
     <TextView
@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Now how some time together with yourself. I know the perfect spot.
+        android:text="Now how about some time together with yourself. I know the perfect spot.
 It's at the nearby greenery, find the overflowing treasure. Once you do, pick a good comfortable spot, maybe in the shade?"
         android:textSize="20sp"
         android:textColor="@android:color/black"

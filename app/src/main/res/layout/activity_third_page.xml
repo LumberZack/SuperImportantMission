@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@android:color/holo_purple"
+    android:background="#9C27B0"
     tools:context="com.example.android.superimportantmission.FirstPage">
 
     <TextView
@@ -31,7 +31,7 @@ Take your time there, just relax for a while. Once refreshed, you can move along
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Click only once refreshed"
-        android:onClick="changePage2"
+        android:onClick="changePageAgain"
         android:layout_gravity="center"
         android:textSize="24sp"/>
 

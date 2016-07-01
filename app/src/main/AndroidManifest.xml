@@ -17,7 +17,9 @@
         </activity>
         <activity android:name=".SecondPAge" />
         <activity android:name=".ThirdPage" />
-        <activity android:name=".FourthPage"></activity>
+        <activity android:name=".FourthPage" />
+        <activity android:name=".FifthPage" />
+        <activity android:name=".FinalPage"></activity>
     </application>
 
 </manifest>

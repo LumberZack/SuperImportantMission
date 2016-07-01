@@ -14,7 +14,7 @@ public class ThirdPage extends AppCompatActivity {
         setContentView(R.layout.activity_third_page);
     }
 
-    public void changePage2(View view){
+    public void changePageAgain(View view){
         Intent intent = new Intent(this, FourthPage.class);
         startActivity(intent);
     }

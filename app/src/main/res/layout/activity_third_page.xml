@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_purple"
+    tools:context="com.example.android.superimportantmission.FirstPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time for a quick refresher"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There is a special something waiting for you at the place BESIDE the DNA.
+Just give them your name and anything you desire shall be yours.
+Take your time there, just relax for a while. Once refreshed, you can move along to the next clue."
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="20dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click only once refreshed"
+        android:onClick="changePage2"
+        android:layout_gravity="center"
+        android:textSize="24sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/kitten_zack"
+            android:scaleType="centerCrop"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

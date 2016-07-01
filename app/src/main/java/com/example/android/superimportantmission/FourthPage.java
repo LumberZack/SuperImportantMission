@@ -17,10 +17,10 @@ public class FourthPage extends AppCompatActivity {
 
     public void startTimer(final View view){
         final TextView count = (TextView) findViewById(R.id.countTimer);
-        CountDownTimer timer = new CountDownTimer(8000, 1000) {
+        CountDownTimer timer = new CountDownTimer(180000, 1000) {
 
             public void onTick(long millisUntilFinished) {
-                count.setText(millisUntilFinished / 1000 + " seconds CHG TIME");
+                count.setText(millisUntilFinished / 1000 + " seconds");
             }
 
             public void onFinish() {
